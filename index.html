@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="event.js" defer></script>
+    <link
+      href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+      rel="stylesheet"
+      id="bootstrap-css"
+    />
+  </head>
+  <body>
+    <div class="container padding-lg">
+      <div class="row">
+        <div class="col-md-1" id="get-btn">
+          <button class="btn btn-primary">GET</button>
+        </div>
+        <div class="col-md-1" id="post-btn">
+          <button class="btn btn-primary">POST</button>
+        </div>
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title">Body</h5>
+
+            <input
+              type="text"
+              class="form-control"
+              id="body"
+              aria-label="Sizing example input"
+              aria-describedby="inputGroup-sizing-lg"
+            />
+          </div>
+        </div>
+        <div class="col-md-5">
+          <h5 class="card-title">Response</h5>
+          <p id="response">data</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
